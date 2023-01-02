@@ -34,7 +34,15 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        System.out.println("HEllO");
+        int[] numbers = getRandomNumbers();
+        printArray(numbers);
+
+        System.out.println(maxFinder(numbers));
+        System.out.println(findOdds(numbers));
+        System.out.println(sumOfEvens(numbers));
+        System.out.println(getMin(numbers));
+        System.out.println(howManyEven(numbers));
+        System.out.println(sumOfOddNumbers(numbers));
 
     }
 
@@ -66,6 +74,7 @@ public class Main {
         for (int num : numbers) {
             System.out.print(num + ", ");
         }
+        System.out.println();
     }
 
     public static int sumOfOddNumbers(int[] numbers){
