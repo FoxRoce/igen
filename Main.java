@@ -41,4 +41,20 @@ public class Main {
     public static int getMin(int[] numbers){
        return Arrays.stream(numbers).min().getAsInt();
     }
+
+    public static int howManyEven(int[] numbers){
+        int count = 0;
+        for (int num : numbers) {
+            if (num % 2 == 0){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static void printArray(int[] numbers){
+        for (int num : numbers) {
+            System.out.print(num + ", ");
+        }
+    }
 }
