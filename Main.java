@@ -12,6 +12,16 @@ public class Main {
         }
         return max;
     }
+
+    public static int findOdds(int[] tomb){
+        int odds = 0;
+        for (int i = 0; i < tomb.length; i++) {
+            if (tomb[i]%2!=0){
+                odds++;
+            }
+        }
+        return odds;
+    }
     public static void main(String[] args) {
 
         System.out.println("HEllO");
