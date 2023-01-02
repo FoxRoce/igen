@@ -1,4 +1,5 @@
 public class Main {
+<<<<<<< HEAD
 
     public static int maxFinder(int[] tomb){
         int max = 0;
@@ -11,5 +12,10 @@ public class Main {
     }
     public static void main(String[] args) {
 
+=======
+    public static void main(String[] args) {
+
+        System.out.println("HEllO");
+>>>>>>> origin/main
     }
 }
