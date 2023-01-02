@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
 
@@ -24,5 +26,9 @@ public class Main {
         }
 
         return numbers;
+    }
+
+    public static int getMin(int[] numbers){
+       return Arrays.stream(numbers).min().getAsInt();
     }
 }
