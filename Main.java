@@ -25,9 +25,9 @@ public class Main {
 
     public static int sumOfEvens(int[] tomb){
         int sum = 0;
-        for (int i = 0; i < tomb.length; i++) {
-            if(tomb[i]%2==0){
-                sum+=tomb[i];
+        for (int j : tomb) {
+            if (j % 2 == 0) {
+                sum += j;
             }
         }
         return sum;
